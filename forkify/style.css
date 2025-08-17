@@ -172,7 +172,7 @@ body {
   align-items: center;
 }
 
-.nav-btn svg {
+.nav-btn img {
   height: 2.4rem;
   width: 2.4rem;
   fill: var(--color-primary);
@@ -243,6 +243,10 @@ body {
   display: flex;
   align-items: center;
   transition: all 0.2s;
+
+  padding: 1.5rem 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .btn:hover {
@@ -257,18 +261,9 @@ body {
   margin-right: 1rem;
 }
 
-.btn {
-
-
-  padding: 1.5rem 4rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.btn svg {
+.btn img {  
   height: 2.25rem;
   width: 2.25rem;
-  fill: currentColor;
 }
 
 .btn-small,
@@ -285,10 +280,9 @@ body {
   text-decoration: none;
 }
 
-.btn-small svg, .btn-small:link svg, .btn-small:visited {
+.btn-small img, .btn-small:link img, .btn-small:visited {
   height: 1.75rem;
   width: 1.75rem;
-  fill: currentColor;
 }
 
 .btn-inline {
@@ -307,7 +301,7 @@ body {
 
 }
 
-.btn-inline svg {
+.btn-inline img {
   height: 1.6rem;
   width: 1.6rem;
   fill: currentColor;
@@ -350,7 +344,7 @@ body {
   outline: none;
 }
 
-.btn-round svg {
+.btn-round img {
   height: 2.5rem;
   width: 2.5rem;
   fill: #fff;
@@ -364,7 +358,7 @@ body {
   cursor: pointer;
 }
 
-.btn-tiny svg {
+.btn-tiny img {
   height: 100%;
   width: 100%;
   fill: var(--color-primary);
@@ -375,12 +369,12 @@ body {
   outline: none;
 }
 
-.btn-tiny:hover svg {
+.btn-tiny:hover img {
   fill: var(--color-grad-2);
   transform: translateY(-1px);
 }
 
-.btn-tiny:active svg {
+.btn-tiny:active img {
   fill: var(--color-grad-2);
   transform: translateY(0);
 }
@@ -409,7 +403,7 @@ body {
   text-align: center;
 }
 
-.spinner svg {
+.spinner img {
   height: 6rem;
   width: 6rem;
   fill: var(--color-primary);
@@ -435,7 +429,7 @@ body {
   display: flex;
 }
 
-.message svg, .error svg {
+.message img, .error img {
   height: 3rem;
   width: 3rem;
   fill: var(--color-primary);
@@ -554,7 +548,7 @@ body {
 
 }
 
-.preview-user-generated svg {
+.preview-user-generated img {
   height: 1.2rem;
   width: 1.2rem;
   fill: var(--color-primary);
@@ -679,7 +673,7 @@ body {
   margin-right: 1.75rem;
 }
 
-.recipe-user-generated svg {
+.recipe-user-generated img {
   height: 2.25rem;
   width: 2.25rem;
   fill: var(--color-primary);
