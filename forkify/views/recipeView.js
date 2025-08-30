@@ -13,10 +13,18 @@ class RecipeView extends View{
 
     addHandlerUpdateServings(handler){
         this._parentElement.addEventListener('click', function(e) {
-            const btn = e.target.closest('.bnt-tiny');
+            const btn = e.target.closest('.btn-update-servings');
             if(!btn) return;
             const updateTo = +btn.dataset.updateTo;
             if(updateTo > 0) handler(updateTo);
+        });
+    }
+
+    addHandlerAddBookmark(handler){
+        this._parentElement.addEventListener('click', function(e){
+            const btn = e.target.closest('.btn-bookmark');
+            if(!btn) return;
+            handler();
         });
     }
 
@@ -53,7 +61,7 @@ class RecipeView extends View{
             <div class="recipe-user-generated">
             </div>
 
-            <button class="btn-round">
+            <button class="btn-round btn-bookmark">
                 <img src="./images/bookmark.png" alt="">
             </button>
             </div>
